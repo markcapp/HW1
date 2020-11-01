@@ -40,7 +40,7 @@ Let's first do some simple exploration of this data. I would like for you to ans
 
 - How many airlines are there? (Hint: `levels` and `length` can be useful here)
 
-    -There are **`r length(levels(nyc$carrier))`** flights
+    -There are **`r length(levels(nyc$carrier))`** airlines
 
 - How many flights there were by the airline with code `OO`? (Hint: `nrow` can be useful here along with logical indexing)
 
